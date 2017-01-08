@@ -77,7 +77,7 @@ This is a C<BeforeRelease> phase plugin that ensures that the changelog file
 I<in your distribution> has at least one change listed for the version you are
 releasing.
 
-It is an alternative to L<Dist::Zilla::Plugin::CheckChangesHasContent> which
+It is an alternative to L<Dist::Zilla::Plugin::CheckChangesHasContent> that
 uses L<CPAN::Changes> to parse the changelog file. If your file follows the
 format described by L<CPAN::Changes::Spec>, then this method of checking for
 changes is more reliable than the ad hoc parsing used by
