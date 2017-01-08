@@ -1,0 +1,4 @@
+{{$NEXT}}
+
+- First release upon an unsuspecting world. This used to live in my bundle as
+  Dist::Zilla::Plugin::DROLSKY::CheckChangesHasContent.
