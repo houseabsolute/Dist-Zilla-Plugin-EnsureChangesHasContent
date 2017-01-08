@@ -17,7 +17,7 @@ This is a `BeforeRelease` phase plugin that ensures that the changelog file
 _in your distribution_ has at least one change listed for the version you are
 releasing.
 
-It is an alternative to [Dist::Zilla::Plugin::CheckChangesHasContent](https://metacpan.org/pod/Dist::Zilla::Plugin::CheckChangesHasContent) which
+It is an alternative to [Dist::Zilla::Plugin::CheckChangesHasContent](https://metacpan.org/pod/Dist::Zilla::Plugin::CheckChangesHasContent) that
 uses [CPAN::Changes](https://metacpan.org/pod/CPAN::Changes) to parse the changelog file. If your file follows the
 format described by [CPAN::Changes::Spec](https://metacpan.org/pod/CPAN::Changes::Spec), then this method of checking for
 changes is more reliable than the ad hoc parsing used by

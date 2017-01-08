@@ -87,7 +87,7 @@ Once installed, here are some dzil commands you might try:
 
 You can learn more about Dist::Zilla at http://dzil.org/.
 
-The code for this distribution is [hosted at GitHub](https://github.com/Dist-Zilla-Plugin-EnsureChangesHasContent).
+The code for this distribution is [hosted at GitHub](https://github.com/houseabsolute/Dist-Zilla-Plugin-EnsureChangesHasContent).
 
 You can submit code changes by forking the repository, pushing your code
 changes to your clone, and then submitting a pull request. Detailed
