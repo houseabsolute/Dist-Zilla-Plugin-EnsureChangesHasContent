@@ -4,7 +4,7 @@ Dist::Zilla::Plugin::EnsureChangesHasContent - Checks Changes for content using 
 
 # VERSION
 
-version 0.01
+version 0.02
 
 # SYNOPSIS
 
@@ -34,10 +34,13 @@ The filename in the distribution containing the changelog. This defaults to
 
 # SUPPORT
 
-Bugs may be submitted through [the RT bug tracker](http://rt.cpan.org/Public/Dist/Display.html?Name=Dist-Zilla-Plugin-EnsureChangesHasContent)
-(or [bug-dist-zilla-plugin-ensurechangeshascontent@rt.cpan.org](mailto:bug-dist-zilla-plugin-ensurechangeshascontent@rt.cpan.org)).
+Bugs may be submitted at [http://rt.cpan.org/Public/Dist/Display.html?Name=Dist-Zilla-Plugin-EnsureChangesHasContent](http://rt.cpan.org/Public/Dist/Display.html?Name=Dist-Zilla-Plugin-EnsureChangesHasContent) or via email to [bug-dist-zilla-plugin-ensurechangeshascontent@rt.cpan.org](mailto:bug-dist-zilla-plugin-ensurechangeshascontent@rt.cpan.org).
 
 I am also usually active on IRC as 'autarch' on `irc://irc.perl.org`.
+
+# SOURCE
+
+The source code repository for Dist-Zilla-Plugin-EnsureChangesHasContent can be found at [https://github.com/houseabsolute/Dist-Zilla-Plugin-EnsureChangesHasContent](https://github.com/houseabsolute/Dist-Zilla-Plugin-EnsureChangesHasContent).
 
 # DONATIONS
 
@@ -67,3 +70,6 @@ This software is Copyright (c) 2017 by Dave Rolsky.
 This is free software, licensed under:
 
     The Artistic License 2.0 (GPL Compatible)
+
+The full text of the license can be found in the
+`LICENSE` file included with this distribution.
