@@ -24,12 +24,12 @@ with 'Dist::Zilla::Role::BeforeRelease';
 sub before_release {
     my $self = shift;
 
-    $self->log('Checking Changes');
+    my $filename = $self->filename;
+    $self->log("Checking $filename");
 
     $self->zilla->ensure_built_in;
 
-    my $filename = $self->filename;
-    my $file     = $self->zilla->built_in->child($filename);
+    my $file = $self->zilla->built_in->child($filename);
 
     if ( !-e $file ) {
         $self->log_fatal("No $filename file found");
