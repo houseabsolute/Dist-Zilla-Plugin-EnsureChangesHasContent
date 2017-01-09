@@ -28,17 +28,18 @@ sub before_release {
 
     $self->zilla->ensure_built_in;
 
-    my $file = $self->zilla->built_in->child( $self->file );
+    my $filename = $self->filename;
+    my $file     = $self->zilla->built_in->child($filename);
 
     if ( !-e $file ) {
-        $self->log_fatal('No Changes file found');
+        $self->log_fatal("No $filename file found");
     }
     elsif ( $self->_get_changes($file) ) {
-        $self->log('Changes file has content for release');
+        $self->log("$filename file has content for release");
     }
     else {
         $self->log_fatal(
-            'Changes has no content for ' . $self->zilla->version );
+            "$filename has no content for " . $self->zilla->version );
     }
 
     return;
